@@ -5,7 +5,7 @@ import java.lang.Thread;
 import com.codecool.termlib.*;
 
 public class Grid {
-    int frameRate = 100;
+    int frameRate = 150;
 
     int[][] creaturesPositions;
 
@@ -39,6 +39,8 @@ public class Grid {
         }
 
         Terminal.clearScreen();
+        grid.drawFrame();
+
         for (int i=0; i<100; i++) {
             grid.hideGrid();
 
@@ -67,16 +69,40 @@ public class Grid {
     }
 
     public void showGrid() {
+        int borderWidth = 1;
+
         for (Creature creature : creatures) {
-            Terminal.moveTo(Direction.NORTH.border + creature.getyPosition() + 1, Direction.EAST.border + creature.getxPosition() + 1);
+            Terminal.moveTo(Direction.NORTH.border + creature.getyPosition() + 1 + borderWidth,
+                            Direction.EAST.border + creature.getxPosition() + 1 + borderWidth);
             Terminal.setChar(creature.getStatus().charAt(0));
         }
     }
 
     public void hideGrid() {
+        int borderWidth = 1;
+
         for (Creature creature : creatures) {
-            Terminal.moveTo(Direction.NORTH.border + creature.getyPosition() + 1, Direction.EAST.border + creature.getxPosition() + 1);
+            Terminal.moveTo(Direction.NORTH.border + creature.getyPosition() + 1 + borderWidth,
+                            Direction.EAST.border + creature.getxPosition() + 1 + borderWidth);
             Terminal.setChar(' ');
+        }
+    }
+
+    public void drawFrame() {
+        Terminal.moveTo(2,1);
+        for (int i=0; i<Direction.EAST.border*2 + 2; i++) {
+            System.out.print("-");
+        }
+        Terminal.moveTo(Direction.NORTH.border*2 + 2, 1);
+        for (int i=0; i<Direction.EAST.border*2 + 2; i++) {
+            System.out.print("-");
+        }
+
+        for (int i=2; i<Direction.NORTH.border*2 + 3; i++) {
+            Terminal.moveTo(i, 1);
+            System.out.print("|");
+            Terminal.moveTo(i,Direction.EAST.border*2 + 2);
+            System.out.print("|");
         }
     }
 }
