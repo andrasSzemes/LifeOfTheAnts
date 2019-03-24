@@ -34,6 +34,10 @@ public class Grid {
             grid.addWorker(grid.getCreaturesPositions());
         }
 
+        for (int i=0; i<20; i++) {
+            grid.addSoldier(grid.getCreaturesPositions());
+        }
+
         Terminal.clearScreen();
         for (int i=0; i<100; i++) {
             grid.hideGrid();
@@ -56,6 +60,10 @@ public class Grid {
 
     public void addWorker(ArrayList<int[]> creaturePositions) {
         creatures.add(new Worker(creaturePositions));
+    }
+
+    public void addSoldier(ArrayList<int[]> creaturePositions) {
+        creatures.add(new Soldier(creaturePositions));
     }
 
     public void showGrid() {

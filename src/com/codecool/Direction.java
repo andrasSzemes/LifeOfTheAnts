@@ -15,4 +15,15 @@ public enum Direction {
     public static Direction getRandom() {
         return Direction.values()[(int) (Math.random() * 4)];
     }
+
+    public Direction getNextDirection() {
+        Direction newWay = null;
+
+        if (Direction.EAST.equals(this)) { newWay = SOUTH; }
+        else if (Direction.SOUTH.equals(this)) { newWay = WEST; }
+        else if (Direction.WEST.equals(this)) { newWay = NORTH; }
+        else if (Direction.NORTH.equals(this)) { newWay = EAST; }
+
+        return newWay;
+    }
 }
