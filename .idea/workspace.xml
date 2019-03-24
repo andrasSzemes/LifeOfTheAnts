@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="487e2339-503c-4fe9-8468-4a4d0b74be35" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/lifeOfTheAnts$Grid.ic" NAME="Grid Coverage Results" MODIFIED="1553356188354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.codecool.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="201" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/codecool/Queen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding>
+                <element signature="docComment;method#move#0;class#Queen#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/codecool/Ant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/codecool/Creature.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Creature#1;class#Creature#0" />
+                <element signature="e#652#685#1" />
+                <element signature="e#992#993#0" expanded="true" />
+                <element signature="e#717#750#1" />
+                <element signature="e#1057#1058#0" expanded="true" />
+                <element signature="e#985#1015#1" />
+                <element signature="e#1119#1120#0" expanded="true" />
+                <element signature="docComment;method#move#0;class#Creature#0" />
+                <element signature="docComment;method#canMoveThere#0;class#Creature#0" />
+                <element signature="docComment;method#takeStep#0;class#Creature#0" />
+                <element signature="method#getNextCoords#0;class#Creature#0" />
+                <element signature="method#stayInGrid#0;class#Creature#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/codecool/Grid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#173#183#0" expanded="true" />
+                <element signature="e#1370#1371#0" expanded="true" />
+                <element signature="e#1495#1496#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/codecool/Drone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/codecool/Worker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/codecool/Direction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/codecool/Wasp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.codecool">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.codecool</OriginalElement>
+              <nodes>
+                <node x="0.0" y="582.0">com.codecool.Queen</node>
+                <node x="383.5" y="412.0">com.codecool.Ant</node>
+                <node x="451.75" y="0.0">com.codecool.Creature</node>
+                <node x="656.5" y="446.0">com.codecool.Wasp</node>
+                <node x="520.0" y="593.5">com.codecool.Soldier</node>
+                <node x="825.0" y="702.0">com.codecool.termlib</node>
+                <node x="780.0" y="582.0">com.codecool.Worker</node>
+                <node x="260.0" y="593.5">com.codecool.Drone</node>
+                <node x="0.0" y="702.0">com.codecool.Grid</node>
+                <node x="363.0" y="702.0">com.codecool.Direction</node>
+                <node x="617.0" y="702.0">com.codecool.Util</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.codecool.Queen" target="com.codecool.Ant">
+                  <point x="0.0" y="-37.5" />
+                  <point x="120.0" y="552.0" />
+                  <point x="415.125" y="552.0" />
+                  <point x="-94.875" y="60.0" />
+                </edge>
+                <edge source="com.codecool.Drone" target="com.codecool.Ant">
+                  <point x="0.0" y="-26.0" />
+                  <point x="380.0" y="562.0" />
+                  <point x="478.375" y="562.0" />
+                  <point x="-31.625" y="60.0" />
+                </edge>
+                <edge source="com.codecool.Soldier" target="com.codecool.Ant">
+                  <point x="0.0" y="-26.0" />
+                  <point x="640.0" y="562.0" />
+                  <point x="541.625" y="562.0" />
+                  <point x="31.625" y="60.0" />
+                </edge>
+                <edge source="com.codecool.Ant" target="com.codecool.Creature">
+                  <point x="0.0" y="-60.0" />
+                  <point x="510.0" y="387.0" />
+                  <point x="547.5" y="387.0" />
+                  <point x="-95.75" y="181.0" />
+                </edge>
+                <edge source="com.codecool.Worker" target="com.codecool.Ant">
+                  <point x="0.0" y="-37.5" />
+                  <point x="900.0" y="552.0" />
+                  <point x="604.875" y="552.0" />
+                  <point x="94.875" y="60.0" />
+                </edge>
+                <edge source="com.codecool.Wasp" target="com.codecool.Creature">
+                  <point x="0.0" y="-26.0" />
+                  <point x="776.5" y="387.0" />
+                  <point x="739.0" y="387.0" />
+                  <point x="95.75" y="181.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="251.0" y="222.0" />
+              <SelectedNodes>
+                <node>com.codecool.Creature</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>creatInWay</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/codecool/Life.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/Directions.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/Util.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/Soldier.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/Drone.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/Wasp.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/Ant.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/Queen.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/Terminal.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/termlib/Direction.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/termlib/Terminal.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/Grid.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/Creature.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/Worker.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/Direction.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lifeOfTheAnts" type="58d84e3e:PackageViewProjectNode" />
+              <item name="lifeOfTheAnts" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lifeOfTheAnts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeOfTheAnts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeOfTheAnts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeOfTheAnts" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeOfTheAnts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeOfTheAnts" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeOfTheAnts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeOfTheAnts" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="lifeOfTheAnts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeOfTheAnts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeOfTheAnts" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="lifeOfTheAnts" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeOfTheAnts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeOfTheAnts" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="lifeOfTheAnts" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="codecool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeOfTheAnts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeOfTheAnts" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="lifeOfTheAnts" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="codecool" type="462c0819:PsiDirectoryNode" />
+              <item name="termlib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeOfTheAnts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeOfTheAnts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeOfTheAnts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeOfTheAnts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codecool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeOfTheAnts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeOfTheAnts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codecool" type="462c0819:PsiDirectoryNode" />
+              <item name="termlib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553453912767" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/codecool/termlib" />
+      <recent name="$PROJECT_DIR$/src/com/codecool" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Grid">
+    <configuration name="Grid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codecool.Grid" />
+      <module name="lifeOfTheAnts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codecool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <module name="lifeOfTheAnts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="lifeOfTheAnts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Grid" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Grid" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="487e2339-503c-4fe9-8468-4a4d0b74be35" name="Default Changelist" comment="" />
+      <created>1553098428408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553098428408</updated>
+      <workItem from="1553098430680" duration="4896000" />
+      <workItem from="1553119439691" duration="31441000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="36337000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.5977723" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.35148516" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.38242576" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3279703" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="position" language="JAVA" />
+        <watch expression="nextPosition" language="JAVA" />
+        <watch expression="(! creatInWay(creaturePositions, nextCoords)) &amp;&amp; stayInGrid(nextCoords)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>nextPosition == new int[]{0,0}</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>canMoveThere(creaturePositions, chosenWay) == false</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>canBePlaced == false</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>!creatInWay(creaturePositions, new int[]{xNum, yNum}) == false</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>creatInWay = true;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>(! creatInWay(creaturePositions, nextCoords)) &amp;&amp; stayInGrid(nextCoords)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nextPosition</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>position</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Direction.NORTH.border + creature.getyPosition() + 1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Direction.EAST.border + creature.getxPosition() + 1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Life.class" />
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Life.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Soldier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Terminal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/termlib/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/termlib/Terminal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="56" />
+          <folding>
+            <element signature="e#3049#3050#0" expanded="true" />
+            <element signature="e#3087#3088#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/termlib/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/lifeOfTheAnts/com/codecool/termlib/Terminal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#3133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Drone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.codecool">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.codecool</OriginalElement>
+          <nodes>
+            <node x="0.0" y="582.0">com.codecool.Queen</node>
+            <node x="383.5" y="412.0">com.codecool.Ant</node>
+            <node x="451.75" y="0.0">com.codecool.Creature</node>
+            <node x="656.5" y="446.0">com.codecool.Wasp</node>
+            <node x="520.0" y="593.5">com.codecool.Soldier</node>
+            <node x="825.0" y="702.0">com.codecool.termlib</node>
+            <node x="780.0" y="582.0">com.codecool.Worker</node>
+            <node x="260.0" y="593.5">com.codecool.Drone</node>
+            <node x="0.0" y="702.0">com.codecool.Grid</node>
+            <node x="363.0" y="702.0">com.codecool.Direction</node>
+            <node x="617.0" y="702.0">com.codecool.Util</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.codecool.Queen" target="com.codecool.Ant">
+              <point x="0.0" y="-37.5" />
+              <point x="120.0" y="552.0" />
+              <point x="415.125" y="552.0" />
+              <point x="-94.875" y="60.0" />
+            </edge>
+            <edge source="com.codecool.Drone" target="com.codecool.Ant">
+              <point x="0.0" y="-26.0" />
+              <point x="380.0" y="562.0" />
+              <point x="478.375" y="562.0" />
+              <point x="-31.625" y="60.0" />
+            </edge>
+            <edge source="com.codecool.Soldier" target="com.codecool.Ant">
+              <point x="0.0" y="-26.0" />
+              <point x="640.0" y="562.0" />
+              <point x="541.625" y="562.0" />
+              <point x="31.625" y="60.0" />
+            </edge>
+            <edge source="com.codecool.Ant" target="com.codecool.Creature">
+              <point x="0.0" y="-60.0" />
+              <point x="510.0" y="387.0" />
+              <point x="547.5" y="387.0" />
+              <point x="-95.75" y="181.0" />
+            </edge>
+            <edge source="com.codecool.Worker" target="com.codecool.Ant">
+              <point x="0.0" y="-37.5" />
+              <point x="900.0" y="552.0" />
+              <point x="604.875" y="552.0" />
+              <point x="94.875" y="60.0" />
+            </edge>
+            <edge source="com.codecool.Wasp" target="com.codecool.Creature">
+              <point x="0.0" y="-26.0" />
+              <point x="776.5" y="387.0" />
+              <point x="739.0" y="387.0" />
+              <point x="95.75" y="181.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="251.0" y="222.0" />
+          <SelectedNodes>
+            <node>com.codecool.Creature</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Wasp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Queen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;method#move#0;class#Queen#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Ant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Creature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Creature#1;class#Creature#0" />
+            <element signature="e#652#685#1" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#717#750#1" />
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#985#1015#1" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="docComment;method#move#0;class#Creature#0" />
+            <element signature="docComment;method#canMoveThere#0;class#Creature#0" />
+            <element signature="docComment;method#takeStep#0;class#Creature#0" />
+            <element signature="method#getNextCoords#0;class#Creature#0" />
+            <element signature="method#stayInGrid#0;class#Creature#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Grid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#173#183#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>lifeOfTheAnts</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
