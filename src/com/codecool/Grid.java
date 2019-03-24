@@ -29,30 +29,13 @@ public class Grid {
         Grid grid = new Grid();
 
         grid.addQueen();
-
-        for (int i=0; i<20; i++) {
-            grid.addWorker(grid.getCreaturesPositions());
-        }
-
-        for (int i=0; i<20; i++) {
-            grid.addSoldier(grid.getCreaturesPositions());
-        }
+        grid.addWorker(grid.getCreaturesPositions(), 20);
+        grid.addSoldier(grid.getCreaturesPositions(), 10);
+        grid.addDrone(grid.getCreaturesPositions(), 5);
 
         Terminal.clearScreen();
         grid.drawFrame();
-
-        for (int i=0; i<100; i++) {
-            grid.hideGrid();
-
-            for (Creature creature : grid.creatures) {
-                creature.move(grid.getCreaturesPositions());
-            }
-            grid.showGrid();
-
-            try { Thread.sleep(grid.frameRate); }
-            catch (InterruptedException e) {}
-        }
-
+        grid.showGridFor(100);
         Terminal.clearScreen();
     }
 
@@ -60,15 +43,25 @@ public class Grid {
         creatures.add(new Queen());
     }
 
-    public void addWorker(ArrayList<int[]> creaturePositions) {
-        creatures.add(new Worker(creaturePositions));
+    public void addWorker(ArrayList<int[]> creaturePositions, int numberOfWorkers) {
+        for (int i=0; i<numberOfWorkers; i++) {
+            creatures.add(new Worker(creaturePositions));
+        }
     }
 
-    public void addSoldier(ArrayList<int[]> creaturePositions) {
-        creatures.add(new Soldier(creaturePositions));
+    public void addSoldier(ArrayList<int[]> creaturePositions, int numberOfSoldiers) {
+        for (int i=0; i<numberOfSoldiers; i++) {
+            creatures.add(new Soldier(creaturePositions));
+        }
     }
 
-    public void showGrid() {
+    public void addDrone(ArrayList<int[]> creaturePositions, int numberOfDrones) {
+        for (int i=0; i<numberOfDrones; i++) {
+            creatures.add(new Drone(creaturePositions));
+        }
+    }
+
+    public void fillFrame() {
         int borderWidth = 1;
 
         for (Creature creature : creatures) {
@@ -78,7 +71,7 @@ public class Grid {
         }
     }
 
-    public void hideGrid() {
+    public void clearFrame() {
         int borderWidth = 1;
 
         for (Creature creature : creatures) {
@@ -103,6 +96,23 @@ public class Grid {
             System.out.print("|");
             Terminal.moveTo(i,Direction.EAST.border*2 + 2);
             System.out.print("|");
+        }
+    }
+
+    public void sleep() {
+        try { Thread.sleep(this.frameRate); }
+        catch (InterruptedException e) {}
+    }
+
+    public void showGridFor(int time) {
+        for (int i=0; i<100; i++) {
+            this.clearFrame();
+
+            for (Creature creature : this.creatures) {
+                creature.move(this.getCreaturesPositions());
+            }
+            this.fillFrame();
+            this.sleep();
         }
     }
 }

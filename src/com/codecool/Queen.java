@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 public class Queen extends Ant {
 
+    boolean inTheMood = true;
+
     Queen() {
         xPosition = 0;
         yPosition = 0;
