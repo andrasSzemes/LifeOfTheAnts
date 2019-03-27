@@ -30,7 +30,10 @@ public class Drone extends Ant {
 
         if (distanceFromQueen < 3) {
             if (queenTime == 0) {
-                if (queen.getInTheMood()) { mateSuccessfully(); }
+                if (queen.getMatingMood()) {
+                    mateSuccessfully();
+                    queen.relaxAfterMating();
+                }
                 else { matePoorly(creaturePositions, queenDistance); }
             }
             else if (queenTime == 1) { doElseElsewhere(creaturePositions, queenDistance); }

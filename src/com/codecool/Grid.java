@@ -115,6 +115,7 @@ public class Grid {
                 if (creature instanceof Drone) {
                     ((Drone) creature).mate(getQueen(), this.getCreaturesPositions(), distanceAfterMate);
                 }
+                if (creature instanceof Queen) { ((Queen) creature).getIntoMood(); }
             }
             this.fillFrame();
             this.sleep();
