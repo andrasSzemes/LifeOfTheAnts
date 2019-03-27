@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="487e2339-503c-4fe9-8468-4a4d0b74be35" name="Default Changelist" comment="">
+    <list default="true" id="487e2339-503c-4fe9-8468-4a4d0b74be35" name="Default Changelist" comment="Drones now go towards the queen until the distance is three units">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lifeOfTheAnts" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lifeOfTheAnts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codecool/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codecool/Creature.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/codecool/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codecool/Drone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/codecool/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codecool/Grid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/codecool/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codecool/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codecool/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codecool/Util.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,10 +29,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codecool/Queen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="135">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="docComment;method#move#0;class#Queen#0" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/codecool/Ant.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#145#146#0" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
@@ -52,23 +56,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codecool/Creature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="249">
+              <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#247#248#0" expanded="true" />
                 <element signature="e#295#296#0" expanded="true" />
                 <element signature="method#Creature#1;class#Creature#0" />
                 <element signature="e#652#685#1" />
-                <element signature="e#992#993#0" expanded="true" />
+                <element signature="e#1687#1688#0" expanded="true" />
                 <element signature="e#717#750#1" />
-                <element signature="e#1057#1058#0" expanded="true" />
+                <element signature="e#1752#1753#0" expanded="true" />
                 <element signature="e#985#1015#1" />
-                <element signature="e#1119#1120#0" expanded="true" />
+                <element signature="e#1814#1815#0" expanded="true" />
                 <element signature="docComment;method#move#0;class#Creature#0" />
                 <element signature="docComment;method#canMoveThere#0;class#Creature#0" />
+                <element signature="method#canMoveThere#0;class#Creature#0" />
                 <element signature="docComment;method#takeStep#0;class#Creature#0" />
+                <element signature="method#takeStep#0;class#Creature#0" />
+                <element signature="method#getNextCoords#0;class#Creature#0" />
                 <element signature="method#stayInGrid#0;class#Creature#0" />
+                <element signature="method#creatInWay#0;class#Creature#0" />
               </folding>
             </state>
           </provider>
@@ -77,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codecool/Soldier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -86,26 +94,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codecool/Worker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="27" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codecool/Drone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="165">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/codecool/Drone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+              <folding>
+                <element signature="method#getQueenWay#0;class#Drone#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codecool/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="225">
+              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
               <folding>
                 <element signature="e#171#172#0" expanded="true" />
                 <element signature="e#235#236#0" expanded="true" />
@@ -117,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codecool/Grid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="135">
+              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#173#183#0" expanded="true" />
@@ -130,8 +141,7 @@
                 <element signature="method#showGrid#0;class#Grid#0" />
                 <element signature="method#hideGrid#0;class#Grid#0" />
                 <element signature="method#drawFrame#0;class#Grid#0" />
-                <element signature="method#sleep#0;class#Grid#0" />
-                <element signature="method#showGridFor#0;class#Grid#0" />
+                <element signature="method#getQueen#0;class#Grid#0" />
               </folding>
             </state>
           </provider>
@@ -177,7 +187,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/codecool/Life.java" />
         <option value="$PROJECT_DIR$/src/com/codecool/Directions.java" />
-        <option value="$PROJECT_DIR$/src/com/codecool/Util.java" />
         <option value="$PROJECT_DIR$/src/com/codecool/Wasp.java" />
         <option value="$PROJECT_DIR$/src/com/codecool/Ant.java" />
         <option value="$PROJECT_DIR$/src/com/codecool/Terminal.java" />
@@ -186,10 +195,11 @@
         <option value="$PROJECT_DIR$/src/com/codecool/Worker.java" />
         <option value="$PROJECT_DIR$/src/com/codecool/Direction.java" />
         <option value="$PROJECT_DIR$/src/com/codecool/Soldier.java" />
-        <option value="$PROJECT_DIR$/src/com/codecool/Creature.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/Util.java" />
         <option value="$PROJECT_DIR$/src/com/codecool/Queen.java" />
-        <option value="$PROJECT_DIR$/src/com/codecool/Drone.java" />
         <option value="$PROJECT_DIR$/src/com/codecool/Grid.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/Creature.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/Drone.java" />
       </list>
     </option>
   </component>
@@ -294,7 +304,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553462136737" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553714836783" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -369,7 +379,7 @@
       <option name="presentableId" value="Default" />
       <updated>1553098428408</updated>
       <workItem from="1553098430680" duration="4896000" />
-      <workItem from="1553119439691" duration="37997000" />
+      <workItem from="1553119439691" duration="46793000" />
     </task>
     <task id="LOCAL-00001" summary="Soldier ants added, they patrol in a 4-cycle">
       <created>1553457531480</created>
@@ -385,25 +395,31 @@
       <option name="project" value="LOCAL" />
       <updated>1553458785296</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Drones now go towards the queen until the distance is three units">
+      <created>1553462295859</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553462295860</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42893000" />
+    <option name="totallyTimeSpent" value="51689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2532189" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49876237" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="6" sideWeight="0.50123763" side_tool="true" weight="0.2532189" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.55445546" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.5878713" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
@@ -433,20 +449,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Soldier ants added, they patrol in a 4-cycle" />
     <MESSAGE value="Border is added to the grid in order to see the boundaries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Border is added to the grid in order to see the boundaries" />
+    <MESSAGE value="Drones now go towards the queen until the distance is three units" />
+    <option name="LAST_COMMIT_MESSAGE" value="Drones now go towards the queen until the distance is three units" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <condition expression="prevDirection.equals(Direction.EAST)" language="JAVA" />
-          <url>file://$PROJECT_DIR$/src/com/codecool/Soldier.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="position" language="JAVA" />
@@ -457,6 +463,16 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>(queenDistance - Math.abs(xNum) &gt; Direction.NORTH.border) == true</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(queenDistance - Math.abs(xNum) &lt; Direction.NORTH.border) == true</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>prevDirection.equals(Direction.EAST)</expression-string>
         <language-id>JAVA</language-id>
@@ -648,54 +664,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codecool/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codecool/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codecool/Creature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="method#Creature#1;class#Creature#0" />
-            <element signature="e#652#685#1" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#717#750#1" />
-            <element signature="e#1057#1058#0" expanded="true" />
-            <element signature="e#985#1015#1" />
-            <element signature="e#1119#1120#0" expanded="true" />
-            <element signature="docComment;method#move#0;class#Creature#0" />
-            <element signature="docComment;method#canMoveThere#0;class#Creature#0" />
-            <element signature="docComment;method#takeStep#0;class#Creature#0" />
-            <element signature="method#stayInGrid#0;class#Creature#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codecool/Drone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codecool/Ant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
@@ -705,25 +677,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codecool/Queen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="135">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="docComment;method#move#0;class#Queen#0" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codecool/Soldier.java">
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codecool/Grid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="135">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#173#183#0" expanded="true" />
@@ -735,19 +713,65 @@
             <element signature="method#showGrid#0;class#Grid#0" />
             <element signature="method#hideGrid#0;class#Grid#0" />
             <element signature="method#drawFrame#0;class#Grid#0" />
-            <element signature="method#sleep#0;class#Grid#0" />
-            <element signature="method#showGridFor#0;class#Grid#0" />
+            <element signature="method#getQueen#0;class#Grid#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codecool/Util.java">
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="300">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Soldier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Creature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
           <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="method#Creature#1;class#Creature#0" />
+            <element signature="e#652#685#1" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#717#750#1" />
+            <element signature="e#1752#1753#0" expanded="true" />
+            <element signature="e#985#1015#1" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="docComment;method#move#0;class#Creature#0" />
+            <element signature="docComment;method#canMoveThere#0;class#Creature#0" />
+            <element signature="method#canMoveThere#0;class#Creature#0" />
+            <element signature="docComment;method#takeStep#0;class#Creature#0" />
+            <element signature="method#takeStep#0;class#Creature#0" />
+            <element signature="method#getNextCoords#0;class#Creature#0" />
+            <element signature="method#stayInGrid#0;class#Creature#0" />
+            <element signature="method#creatInWay#0;class#Creature#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/Drone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="method#getQueenWay#0;class#Drone#0" />
           </folding>
         </state>
       </provider>

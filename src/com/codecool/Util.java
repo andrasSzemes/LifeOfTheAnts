@@ -1,5 +1,7 @@
 package com.codecool;
 
+import com.codecool.termlib.Terminal;
+
 public class Util {
 
     /**
@@ -9,5 +11,10 @@ public class Util {
      */
     static public int plusMinus() {
         return (Math.round(Math.random()) == 0) ? -1 : 1;
+    }
+
+    static public void antSay(String message) {
+        Terminal.moveTo(Direction.NORTH.border * 2 + 3, 1);
+        System.out.print(message);
     }
 }

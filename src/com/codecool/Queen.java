@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Queen extends Ant {
 
-    boolean inTheMood = true;
+    private boolean inTheMood = false;
 
     Queen() {
         xPosition = 0;
@@ -17,6 +17,10 @@ public class Queen extends Ant {
      */
     @Override
     public void move(ArrayList<int[]> creaturePositions) {}
+
+    public boolean getInTheMood() {
+        return inTheMood;
+    }
 
 
 }

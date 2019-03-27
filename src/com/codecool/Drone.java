@@ -3,6 +3,8 @@ package com.codecool;
 import java.util.ArrayList;
 
 public class Drone extends Ant {
+    private int queenTime = 0;
+    private boolean saidSomething = false;
 
     Drone(ArrayList<int[]> creaturePositions) {
         super(creaturePositions);
@@ -11,14 +13,29 @@ public class Drone extends Ant {
 
     @Override
     public void move(ArrayList<int[]> creaturePositions) {
-        if (distanceFromQueen > 3) {
-            Direction queenWay = getQueenWay(creaturePositions);
+        if (queenTime == 0) {
+            if (distanceFromQueen >= 3) {
+                Direction queenWay = getQueenWay(creaturePositions);
 
-
-            if (queenWay != null) {
-                takeStep(queenWay);
-                setDistanceFromQueen();
+                if (queenWay != null) {
+                    takeStep(queenWay);
+                    setDistanceFromQueen();
+                }
             }
+        }
+    }
+
+    public void mate(Queen queen, ArrayList<int[]> creaturePositions, int queenDistance) {
+        if (saidSomething) { removeMessage(); }
+
+        if (distanceFromQueen < 3) {
+            if (queenTime == 0) {
+                if (queen.getInTheMood()) { mateSuccessfully(); }
+                else { matePoorly(creaturePositions, queenDistance); }
+            }
+            else if (queenTime == 1) { doElseElsewhere(creaturePositions, queenDistance); }
+
+            else if (queenTime > 0) { queenTime--; }
         }
     }
 
@@ -36,5 +53,29 @@ public class Drone extends Ant {
         if (queenWay != null && canMoveThere(creaturePositions, queenWay)) { return queenWay; }
 
         return queenWay;
+    }
+
+    private void mateSuccessfully() {
+        queenTime = 10;
+        Util.antSay("HALLELUJAH");
+        saidSomething = true;
+    }
+
+    private void matePoorly(ArrayList<int[]> creaturePositions, int queenDistance) {
+        Util.antSay("D’OH");
+        saidSomething = true;
+        placeCreature(creaturePositions, queenDistance);
+        setDistanceFromQueen();
+    }
+
+    private void removeMessage() {
+        Util.antSay("          ");
+        saidSomething = false;
+    }
+
+    private void doElseElsewhere(ArrayList<int[]> creaturePositions, int queenDistance) {
+        placeCreature(creaturePositions, queenDistance);
+        setDistanceFromQueen();
+        queenTime--;
     }
 }

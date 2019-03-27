@@ -5,9 +5,11 @@ import java.lang.Thread;
 import com.codecool.termlib.*;
 
 public class Grid {
-    int frameRate = 150;
+    private int frameRate = 500;
 
-    int[][] creaturesPositions;
+    private int[][] creaturesPositions;
+
+    int distanceAfterMate = (Direction.NORTH.border + Direction.EAST.border) / 2;
 
     ArrayList<Creature> creatures = new ArrayList<Creature>();
 
@@ -105,14 +107,25 @@ public class Grid {
     }
 
     public void showGridFor(int time) {
-        for (int i=0; i<100; i++) {
+        for (int i=0; i<time; i++) {
             this.clearFrame();
 
             for (Creature creature : this.creatures) {
                 creature.move(this.getCreaturesPositions());
+                if (creature instanceof Drone) {
+                    ((Drone) creature).mate(getQueen(), this.getCreaturesPositions(), distanceAfterMate);
+                }
             }
             this.fillFrame();
             this.sleep();
         }
+    }
+
+    private Queen getQueen() {
+        Queen queen = null;
+        for (Creature ant : creatures) {
+            if (ant instanceof Queen) {queen = (Queen) ant;}
+        }
+        return queen;
     }
 }

@@ -34,6 +34,25 @@ public abstract class Creature {
         }
     }
 
+    public void placeCreature(ArrayList<int[]> creaturePositions, int queenDistance) {
+        boolean needPlacement = true;
+        boolean canBePlaced = false;
+
+        while (needPlacement) {
+            int xNum = Util.plusMinus() * (int) (Math.random() * queenDistance);
+            if (queenDistance - Math.abs(xNum) > Direction.NORTH.border - 1) { continue; }
+            int yNum = Util.plusMinus() * (queenDistance - Math.abs(xNum));
+
+            canBePlaced = !creatInWay(creaturePositions, new int[]{xNum, yNum});
+            if (canBePlaced) {
+                xPosition = xNum;
+                yPosition = yNum;
+
+                needPlacement = false;
+            }
+        }
+    }
+
     public int getxPosition() {
         return xPosition;
     }
